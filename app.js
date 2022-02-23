@@ -61,20 +61,6 @@ app.post("/failure", function(req, res) {
   res.redirect("/");
 });
 
-// {
-//   "name": "$event_name",
-//   "contact": $footer_contact_info,
-//   "permission_reminder": "permission_reminder",
-//   "email_type_option": true,
-//   "campaign_defaults": $campaign_defaults
-// }
-
 app.listen(process.env.PORT || 3000, function() {
   console.log("The server is listening on port 3000.");
 });
-
-// API Key
-// 0d2873ad974d21f2e765ad839edcab9a-us5
-
-// List ID
-// 1be6b8126a
